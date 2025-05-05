@@ -12,10 +12,10 @@ Security hardening of Signal's Post-Quantum Extended Diffie–Hellman (PQXDH) ke
 
 
 
-For ML-DSA, We refered the https://github.com/GiacomoPope/dilithium-py \cite{githubdilithium} to mostly implement the ML-DSA, which is constructed as per the specifications defined in https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.pdf.
+For ML-DSA, We refered the https://github.com/GiacomoPope/dilithium-py \cite{githubdilithium} to mostly implement the ML-DSA, which is constructed as per the specifications of NIST FIPS 204
 
-For ML-KEM, We constructed our own implementation of the ML-KEM from scratch by following the specifications as defined in https://nvlpubs.nist.gov/nistpubs/-\\FIPSNIST.FIPS.203.pdf.
+For ML-KEM, We constructed our own implementation of the ML-KEM from scratch by following the specifications of NIST FIPS 203
 
-For X25519, We referred from https://asecuritysite.com/x25519/-\\python\_25519ecdh2 \cite{asecurity}, which were mentioned implemented based on the X25519 specifications as mentioned in https://datatracker.ietf.org/doc/html/rfc7748.
+For X25519, We referred from https://asecuritysite.com/x25519/-\\python\_25519ecdh2 \cite{asecurity}, which were mentioned implemented based on the X25519 specifications as mentioned in IETF rfc7748
 
 Elsewhere, we have used Python packages including Cryptography, sqlite3, flask, hashlib, and asyncio to realise the server, databases, and in helping the full integration process of our E2EE protocol.
